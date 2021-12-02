@@ -1,24 +1,21 @@
 #include <ImageSearch2015.au3>
 
-HotKeySet("{f1}", "exitapp")
-$x=0
-$y=0
+HotKeySet("{Esc}", "exitapp")
+Global $x=0
+Global $y=0
 repeat()
-MouseMove($x, $y, 3)
+
 Func repeat()
-While(1)
-    $accept = _ImageSearch("pix.png", 0, $x, $y, 0)
-    If $accept = 1  Then
-        ConsoleWrite("It's passed the if")
+While True 
+    $accept = _ImageSearch("accept.png", 0, $x, $y, 10)
+    If $accept = True  Then
         startapp()      
     EndIf 
 WEnd
-EndFunc       
+EndFunc         
 
 Func startapp()
-    ConsoleWrite("It's recognize the image") 
-    MouseMove($x, $y, 1)
-    MouseClick("primary")
+    MouseClick($MOUSE_CLICK_LEFT, $x-100, $y-110, 1)
     repeat()
 EndFunc     
 
