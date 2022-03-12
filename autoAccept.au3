@@ -16,7 +16,7 @@ EndFunc
 
 Func startapp()
     MouseClick($MOUSE_CLICK_LEFT, $x-100, $y-110, 1)
-    MouseMove (0, 0 ,0)
+    MouseMove($x, $y, 0)
     repeat()
 EndFunc     
 
