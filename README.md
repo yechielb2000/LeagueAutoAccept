@@ -15,5 +15,5 @@ That's it._ 😄
 _I added a file called autoAccept.rar so you guys can run it as well !!_        
 _You can also download it [here.](https://yechielb2000.github.io/LeagueAutoAccept/)_
 
-For the full version (not available for season 2022)[ click here. ](https://github.com/yechielb2000/LeagueAuto) 
+For the full version ( not available from season 2022+ )[ click here. ](https://github.com/yechielb2000/LeagueAuto) 
 
